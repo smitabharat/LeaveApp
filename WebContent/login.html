@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+</head>
+<style>
+
+body{
+     background-image: linear-gradient(to left,pink,green);
+
+}
+
+form{
+     margin-top:5%;
+     border:3px solid black;
+     border-radius:20px;
+     width:400px;
+     margin-left:35%;
+     background-image: linear-gradient(to left,red,yellow);
+  
+}
+
+label{
+    font-family: monospace;
+    font-weight:bold;
+    font-size:x-large; 
+}
+
+input{
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size:x-large; 
+    border:2px solid black;
+    border-radius:10px;
+}
+#i1{
+   color:white;
+   background-color: green;
+   cursor: pointer;
+   width:240px;
+   border: 2px solid red;
+}
+
+
+</style>
+<body>
+
+<form action="LoginServlet" method="post" align=center>
+<br>
+<h3>EMPLOYEE LEAVE </h3>
+<label>Enter Username </label>
+<input type="text" name="uname">
+<br><br>
+<label>Enter Password  </label>
+<input type="password" name="password">
+<br><br>
+<input type="submit" value="Submit" id="i1">
+<br>
+<br>
+</form>
+</body>
+</html>
